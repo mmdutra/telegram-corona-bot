@@ -54,12 +54,10 @@ findAll = (msg) => {
         })
 }
 
-sendMessage = (chat, response, country = '') => {
-
-    const name = (country) ? country : 'Todos';
+sendMessage = (chat, response, country = 'Todos') => {
 
     bot.sendMessage(chat.chat.id, `
-País: ${name}
+País: ${country}
 Total de casos: ${response.total_cases},
 Total de mortes: ${response.total_deaths},
 Novos casos hoje: ${response.total_new_cases_today},
