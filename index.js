@@ -9,7 +9,7 @@ const bot = new TelegramBot(TOKEN, { polling: true })
 
 const axios = require('axios').default
 
-const URL_API = `https://thevirustracker.com/free-api`
+const URL_API = process.env.API
 
 
 bot.onText(/\/rules/, (msg) => {
