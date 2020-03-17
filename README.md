@@ -1,5 +1,5 @@
 ## :hospital: Corona Bot
-### Pequeno BOT para pegar dados atualizados sobre os casos de Corona no mundo. 
+Pequeno BOT para pegar dados atualizados sobre os casos de Corona no mundo. 
 
 ## Instalando as dependências
 
